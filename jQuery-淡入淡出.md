@@ -1,7 +1,7 @@
 <h1>jQuery =>淡入淡出</h1>
 <h2>jQuery</h2>
 
-```
+```javascript
 <script>
         $(function(){   //與$(document).ready()一樣，在DOM後執行的方法
             $("#in").click(function(){  //id為in的Element被點選時
@@ -19,7 +19,7 @@
 
 <h2>html</h2>
 
-```
+```html
 <button id="in">in</button>
 <button id="out">out</button>
 <button id="toggle">toggle</button>
