@@ -10,8 +10,8 @@ CSS選擇器{
 ## CSS選擇器有以下：
 * ## 標籤 (div、a、span、table等等以下表示為Element) = "Element"
 * ## 屬性 (colspan、width、value、placeholder) = "[屬性=值]"
-* ## 類別 (Class) = ".class"
-* ## ID (id) = "#id"
+* ## 類別 (Class) = ".class"  (可以有很多個，群組使用)
+* ## ID (id) = "#id" (同樣的ID只能有一個)
 
 ## 以下有幾個範例
 
