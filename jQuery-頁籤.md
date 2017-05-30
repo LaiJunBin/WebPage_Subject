@@ -2,7 +2,7 @@
 
 ## 執行結果
 
-![頁籤結果](image/tag.jpg)
+![頁籤結果](images/tag.jpg)
 
 ## javascript
 
