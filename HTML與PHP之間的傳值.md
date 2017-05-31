@@ -22,7 +22,7 @@
 # POST
 ## POST所傳的值不會顯示在網址列，適合比較隱密的資料和大量的資料，POST所存的值不限制數量及字數，例如我們可以用在帳號密碼登入，之類這種比較隱私的資料或是留言板這種大量的資料。
 ## 假設我們var_dump一下POST
-![var_dump(POST)圖](images/POST拆解.png)
+![var_dump(POST)圖](images/post拆解.png)
 ## 使用方法與GET一樣是$_，只是將GET換成POST
 ## 假設我們輸入`$_POST['title']`就會輸出"我是POST標題"
 ---
