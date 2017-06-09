@@ -1,4 +1,4 @@
-## 我們能夠透過 PDO 連到 Mysql，重要的是 PDO 可以防止 SQL Injection ，使用 bindValue 的方式，PDO 會自動檢查數據格式，再將使用者填入的資料填入 SQL 語法中。
+## 我們能夠透過 PDO 連到 Mysql，重要的是 PDO 可以防止 SQL Injection ，使用 bindValue 的方式，PDO 會自動檢查資料格式，再將使用者填入的資料填入 SQL 語法中。
 
 ## PDO的連線方式
 ```php
