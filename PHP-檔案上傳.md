@@ -17,11 +17,15 @@
     </tr>
 </table>
 
-## 在`form`加入`enctype="multipart/form-data"`之後呢，我們在表單中加入`input`的標籤，型態(type)設為"file"代表文件上傳，就如下
-## `<input type="file" name="名稱">`
-## 選擇檔案，送至PHP之後，可以使用PHP的`var_dump`函數來查看收到的值。
-## 在一般form表單中，PHP接GET值的方式是`$_GET['名稱']`，在POST則是`$_POST['名稱']`、但如果是檔案上傳，則是使用`$_FILES['名稱']`，所以我們只要在`var_dump($_FILES['名稱'])`，就可以顯示出這個檔案的詳細資料。
-## 假設表單這樣子設：
+### 在`form`加入`enctype="multipart/form-data"`之後呢，我們在表單中加入`input`的標籤，型態(type)設為"file"代表文件上傳，就如下
+### `<input type="file" name="名稱">`
+<hr>
+
+### 選擇檔案，送至PHP之後，可以使用PHP的`var_dump`函數來查看收到的值。
+<hr>
+
+### 在一般form表單中，PHP接GET值的方式是`$_GET['名稱']`，在POST則是`$_POST['名稱']`、但如果是檔案上傳，則是使用`$_FILES['名稱']`，所以我們只要在`var_dump($_FILES['名稱'])`，就可以顯示出這個檔案的詳細資料。
+### 假設表單這樣子設：
 ```html
 <form action="PHP網址" method="post" enctype="multipart/form-data">
         <input type="file" name="fileName">
@@ -60,15 +64,22 @@
     </tr>
 </table>
 
-## 知道這些屬性之後，我們就可以來移動這些檔案到伺服器了。如何移動呢？ `使用move_uploaded_file()`
-## move_uploaded_file(tmp,path)這個函數有兩個值。
-## tmp放暫存檔案的位置，也就是`$_FILES['名字']['tmp_name']`
-## 而path則是放完整存放的路徑包含檔案名稱及副檔名。
-## 可以一個值存在一個變數，假設以$tmp去接`$_FILES['名字']['tmp_name']`，而$file存"uploadData/1234.png"，那麼輸入：
-## `move_uploaded_file($tmp,$file);`
-## 就會將檔案傳送到在這個網站下的uploadData資料夾並且命名為1234.png的檔案。
-## Q:可是這樣會有重複檔名的問題？
-## A:所以我們要將檔案重新命名，可以使用`date('YmdHis')`，獲取當前時間並結合上傳者的資料(如帳號)，就不會有重複檔名的問題了。
+### 知道這些屬性之後，我們就可以來移動這些檔案到伺服器了。如何移動呢？ 
+### `使用move_uploaded_file()`
+<hr>
+
+### move_uploaded_file(tmp,path)這個函數有兩個值。
+### tmp放暫存檔案的位置，也就是`$_FILES['名字']['tmp_name']`
+### 而path則是放完整存放的路徑包含檔案名稱及副檔名。
+<hr>
+
+### 可以一個值存在一個變數，假設以$tmp去接`$_FILES['名字']['tmp_name']`，而$file存"uploadData/1234.png"，那麼輸入：
+### `move_uploaded_file($tmp,$file);`
+### 就會將檔案傳送到在這個網站下的uploadData資料夾並且命名為1234.png的檔案。
+<hr>
+
+### Q:可是這樣會有重複檔名的問題？
+### A:所以我們要將檔案重新命名，可以使用`date('YmdHis')`，獲取當前時間並結合上傳者的資料(如帳號)，就不會有重複檔名的問題了。
 
 # 範例：
 ```php
