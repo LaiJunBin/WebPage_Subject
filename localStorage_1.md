@@ -2,8 +2,12 @@
 ## 簡介
 * ### localStorage 是比Cookie更好的儲存方案
 * ### localStorage 儲存在client端資料，沒有時間限制
+<hr>
+
 ## 使用前要做的事
 ### 使用前檢查瀏覽器是否支援
+<hr>
+
 ## 如何檢查?
 ### 很簡單
 ```javascript
@@ -14,21 +18,27 @@ if (typeof(Storage) !== "undefined") {
     // 沒有支援storage
 }
 ```
+<hr>
+
 ## 如何使用?
-## localStorage.key = value
-* ## key: 是你想要儲存的資料名稱，例如name
-* ## value：是你想要儲存的資料，例如 "tom";
-* ## 例如:`localStorage.name="tom"`;
-## 也可以使用 `localStorage.setItem(key, name)`來儲存資料
-## `localStorage[key]`或`localStorage.getItem(key)`來取得資料
-## 例如: `localStorage['name']`
-## * 取出來的值都是字串，若要計算，記得parseInt轉型
+### localStorage.key = value
+* ### key: 是你想要儲存的資料名稱，例如name
+* ### value：是你想要儲存的資料，例如 "tom";
+* ### 例如:`localStorage.name="tom"`;
+### 也可以使用 `localStorage.setItem(key, name)`來儲存資料
+### `localStorage[key]`或`localStorage.getItem(key)`來取得資料
+### 例如: `localStorage['name']`
+### * 取出來的值都是字串，若要計算，記得parseInt轉型
+
+<hr>
 
 ## 如何刪除?
-## `localStorage.removeItem(key)`
-## 例如 `localStorage.removeItem('name')`
+### `localStorage.removeItem(key)`
+### 例如 `localStorage.removeItem('name')`
+<hr>
 
 ## 而localStorage可以在 開發人員工具(chrome為F12)的Application中的Storage找到。
+<hr>
 
 # 練習
 ## 用localStorage做一個簡易的留言板(僅練習用)
@@ -36,6 +46,8 @@ if (typeof(Storage) !== "undefined") {
 * ### 一個文字區域(`textarea`)
 * ### 一個按鈕(`button`)
 * ### 最後留言內容產生在DIV中。
+
+<hr>
 
 # 範例
 ### (就不做美工了)
