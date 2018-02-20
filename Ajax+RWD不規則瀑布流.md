@@ -12,6 +12,35 @@
     </ul>
 </main>
 ```
+
+## CSS
+```css
+#myUl {
+    position: relative;
+}
+
+#myUl li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    padding: 5px 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#bottom {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    margin-top: 15px;
+    line-height: 0px;
+}
+```
+
 ## Javascript
 ```javascript
 window.onload = function () {
