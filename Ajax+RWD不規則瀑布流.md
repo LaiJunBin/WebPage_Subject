@@ -1,5 +1,5 @@
 # Ajax+RWD不規則瀑布流
-## 繼 [Ajax瀑布流-文章](https://github.com/xyz607xx/WebPage_Subject/blob/master/Ajax%E7%80%91%E5%B8%83%E6%B5%81-%E6%96%87%E7%AB%A0.md)之後，這次是不規則的瀑布流，並且使用RWD讓圖片隨著畫面更改位置及大小。
+## 繼 [Ajax瀑布流-文章](https://github.com/laijunbin/WebPage_Subject/blob/master/Ajax%E7%80%91%E5%B8%83%E6%B5%81-%E6%96%87%E7%AB%A0.md)之後，這次是不規則的瀑布流，並且使用RWD讓圖片隨著畫面更改位置及大小。
 ## 執行結果:
 ![result](images/pubu-image.gif)
 ### 圖片會來自當前目錄下的images資料夾

@@ -1,6 +1,6 @@
 # jQuery=>輪播頁籤
 
-## 繼上次 [jQuery頁籤](https://github.com/xyz607xx/WebPage_Subject/blob/master/jQuery-%E9%A0%81%E7%B1%A4.md)之後，這次增加了輪播的功能。
+## 繼上次 [jQuery頁籤](https://github.com/laijunbin/WebPage_Subject/blob/master/jQuery-%E9%A0%81%E7%B1%A4.md)之後，這次增加了輪播的功能。
 
 ## 執行結果：
 
@@ -22,9 +22,9 @@
             page+=1;
             //如果page大於3(頁籤上限)就把page設為1，否則page=page(等於不變)
             (page>3)?page=1:page=page;
-            $(".background").removeClass("background_hover"); 
-            $("button[page="+page+"]").addClass("background_hover"); 
-            $("#content div").attr("display",true); 
+            $(".background").removeClass("background_hover");
+            $("button[page="+page+"]").addClass("background_hover");
+            $("#content div").attr("display",true);
             $(".con"+page+">div").removeAttr("display",false);
             //否則如果頁籤已經被手動點擊過
         }else if (lock==true)
@@ -36,9 +36,9 @@
     $(function(){
         $(".background").click(function(){
             lock=true;
-            $(".background").removeClass("background_hover"); 
-            $(this).addClass("background_hover"); 
-            $("#content div").attr("display",true); 
+            $(".background").removeClass("background_hover");
+            $(this).addClass("background_hover");
+            $("#content div").attr("display",true);
             $(".con"+$(this).attr("page")+">div").removeAttr("display",false);
             //設page變數為數值型態的這個page
             page=parseInt($(this).attr("page"));

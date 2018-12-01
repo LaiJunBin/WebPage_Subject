@@ -3,7 +3,7 @@
 ![結果](images/jQuery+PHP相片輪播.gif)
 
 ---
-### 有點類似於[jQuery-輪播頁籤](https://github.com/xyz607xx/WebPage_Subject/blob/master/jQuery-%E8%BC%AA%E6%92%AD%E9%A0%81%E7%B1%A4.md)的概念，但這邊加入了一些特效，且圖片是以Ajax向PHP請求來的。
+### 有點類似於[jQuery-輪播頁籤](https://github.com/laijunbin/WebPage_Subject/blob/master/jQuery-%E8%BC%AA%E6%92%AD%E9%A0%81%E7%B1%A4.md)的概念，但這邊加入了一些特效，且圖片是以Ajax向PHP請求來的。
 
 ---
 # 程式碼

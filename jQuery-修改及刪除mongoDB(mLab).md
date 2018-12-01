@@ -1,7 +1,7 @@
 # jQuery 修改及刪除MongoDB(mLab)，使用API
 ## 執行結果：
 ![result](images/mlab2.gif)
-## 繼[jQuery-新增及讀取mongoDB(mLab)](https://github.com/xyz607xx/WebPage_Subject/blob/master/jQuery-%E6%96%B0%E5%A2%9E%E5%8F%8A%E8%AE%80%E5%8F%96mongoDB(mLab).md)之後，這次增加了修改與刪除功能，並把$.ajax的部分建立一個函數重複使用，減少程式碼的長度。
+## 繼[jQuery-新增及讀取mongoDB(mLab)](https://github.com/laijunbin/WebPage_Subject/blob/master/jQuery-%E6%96%B0%E5%A2%9E%E5%8F%8A%E8%AE%80%E5%8F%96mongoDB(mLab).md)之後，這次增加了修改與刪除功能，並把$.ajax的部分建立一個函數重複使用，減少程式碼的長度。
 ## 首先額外引入了一個js，必須加入在jQuery之後。
 ```html
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,6 +1,6 @@
 # HTML5拖放API
 
-## 執行結果：[demoURL](https://xyz607xx.github.io/WebExercise/skill09-draggableAPI/)
+## 執行結果：[demoURL](https://laijunbin.github.io/WebExercise/skill09-draggableAPI/)
 ![執行結果](images/dragAPI.gif)
 
 ---
@@ -260,7 +260,7 @@ window.onload = function () {
         //取得上一個拖動的物件
         let index = e.dataTransfer.getData('index');
         let obj = document.querySelector(`#dragList>div[data-index="${index}"`);
-        
+
         //迭代所有可拖動的物件
         for (let d of dragList.children) {
             //當碰到
